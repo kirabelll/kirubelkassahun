@@ -8,7 +8,7 @@ export default function Work() {
       <header className="pt-6 sm:pt-8">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-y-4 sm:gap-6">
           <div className="flex items-center justify-between sm:justify-start">
-            <a href='/' className="sm:text-base cursor-pointer text-sm font-semibold tracking-tight">KIRUBEL</a>
+            <Link href='/' className="sm:text-base cursor-pointer text-sm font-semibold tracking-tight">KIRUBEL</Link>
           </div>
           <div className="col-start-3 flex flex-col items-end text-right">
             <span className="text-xs font-semibold tracking-tight">Based in Ethiopia</span>

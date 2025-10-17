@@ -173,17 +173,17 @@ export default function Home() {
           <div className="lg:col-span-8 fade-in-right animate">
             <div className="space-y-6 text-lg leading-relaxed text-black/70">
               <p>
-                I'm a product designer who believes in the power of simplicity.
+                I&apos;m a product designer who believes in the power of simplicity.
                 My approach is rooted in understanding user needs deeply and
                 crafting solutions that feel effortless and intuitive.
               </p>
               <p>
                 With over 8 years of experience working with startups and
-                Fortune 500 companies, I've learned that the best designs are
-                often the ones you don't notice – they just work.
+                Fortune 500 companies, I&apos;ve learned that the best designs are
+                often the ones you don&apos;t notice – they just work.
               </p>
               <p>
-                When I'm not designing, you'll find me exploring new cafés,
+                When I&apos;m not designing, you&apos;ll find me exploring new cafés,
                 reading about behavioral psychology, or practicing minimalist
                 photography.
               </p>
@@ -498,7 +498,7 @@ export default function Home() {
                     className="inline-flex items-center gap-2 rounded-full bg-white/90 text-black text-sm font-semibold px-5 py-2 backdrop-blur transition"
                     style={{ boxShadow: "inset 0 0 0 1px rgba(0, 0, 0, 0.08)" }}
                   >
-                    Let's collaborate
+                    Let&apos;s collaborate
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="w-4 h-4"

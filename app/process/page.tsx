@@ -813,7 +813,7 @@ export default function ProcessPage() {
         </div>
         <div className="border-t border-black/10 mt-10 pt-6">
           <p className="text-center text-black/70 text-sm">
-            © 2025 SAKURA. All rights reserved.
+            © 2025 KIRUBEL. All rights reserved.
           </p>
         </div>
       </section>

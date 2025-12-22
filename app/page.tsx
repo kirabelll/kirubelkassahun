@@ -1097,12 +1097,11 @@ export default function Home() {
         </div>
 
         <div className="mt-12 sm:mt-16 perspective-distant">
-          <div className="flex gap-5 sm:gap-8 overflow-visible sm:px-0 transform-style-preserve-3d select-none pr-2 pb-6 pl-2 items-end justify-center">
+          <div className="flex gap-5 sm:gap-8 overflow-x-auto overflow-y-visible sm:px-0 transform-style-preserve-3d select-none pr-2 pb-6 pl-2 items-end justify-start min-w-full">
             <article
               className="relative rounded-3xl fade-in-up stagger-delay-1 animate"
               style={{
                 transform: "rotate(-4deg) translateY(16px)",
-                boxShadow: "0 20px 50px rgba(0, 0, 0, 0.18)",
               }}
             >
               <Image
@@ -1118,7 +1117,6 @@ export default function Home() {
               className="relative rounded-3xl fade-in-up stagger-delay-2 animate"
               style={{
                 transform: "rotate(-2.5deg) translateY(10px)",
-                boxShadow: "0 18px 44px rgba(0, 0, 0, 0.16)",
               }}
             >
               <Image
@@ -1134,7 +1132,6 @@ export default function Home() {
               className="relative rounded-3xl fade-in-up stagger-delay-3 animate"
               style={{
                 transform: "rotate(0deg) translateY(0px) scale(1.01)",
-                boxShadow: "0 22px 56px rgba(0, 0, 0, 0.2)",
               }}
             >
               <Image
@@ -1151,7 +1148,6 @@ export default function Home() {
               className="relative rounded-3xl fade-in-up stagger-delay-4 animate"
               style={{
                 transform: "rotate(2.5deg) translateY(10px)",
-                boxShadow: "0 18px 44px rgba(0, 0, 0, 0.16)",
               }}
             >
               <Image
@@ -1168,7 +1164,6 @@ export default function Home() {
               className="relative rounded-3xl fade-in-up stagger-delay-5 animate"
               style={{
                 transform: "rotate(5deg) translateY(16px)",
-                boxShadow: "0 20px 50px rgba(0, 0, 0, 0.18)",
               }}
             >
               <Image

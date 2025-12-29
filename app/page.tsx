@@ -4,13 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 import image1  from '../public/kirabel.jpg'
 import img1 from '../public/frappe-screen.png'
-import img2 from '../public/webscreen.png'
+
 import img3 from '../public/zktlogo.png'
-import adeyimage from '../public/adey.jpg'
-import adeyapi from '../../public/apiadey.png'
 import nelliys from '../public/Nellys-01.png'
-import ecoimage from '../../public/ecoimage.jpg'
-import travelapi from '../../public/travelapi.jpg'
 import devel from '../public/developer.jpg'
 import devel2 from '../public/develoer2.jpg'
 
@@ -191,10 +187,10 @@ export default function Home() {
               <p>
                 With over 3 years of experience building applications for
                 startups and corporate companies, I&apos;ve learned that the best code is
-                often the one you don't notice – it just works.
+                often the one you don&apos;t notice – it just works.
               </p>
               <p>
-                When I&apos;m not coding, you'll find me exploring new tech stacks,
+                When I&apos;m not coding, you&apos;ll find me exploring new tech stacks,
                 reading about software architecture, or contributing to open
                 source projects
               </p>

@@ -2,6 +2,12 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import image1  from '../public/kirabel.jpg'
+import img1 from '../public/frappe-screen.png'
+import img3 from '../public/zktlogo.png'
+import nelliys from '../public/Nellys-01.png'
+import devel from '../public/developer.jpg'
+import devel2 from '../public/develoer2.jpg'
 
 export default function Home() {
   return (
@@ -31,9 +37,9 @@ export default function Home() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 sm:py-12 pt-8 pb-8 items-start">
           <div className="lg:col-span-7 fade-in-left animate">
             <h1 className="text-[34px] sm:text-[44px] lg:text-[56px] xl:text-[60px] 2xl:text-[64px] leading-[1.05] font-semibold tracking-tight">
-              <span className="block">Innovative by Dev.</span>
-              <span className="block">Efficient by choice.</span>
-              <span className="block">Exceptional by design.</span>
+              <span className="block">Innovative by Code.</span>
+              <span className="block ">Efficient by Logic.</span>
+              <span className="block">Exceptional by Architecture.</span>
             </h1>
 
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
@@ -49,7 +55,7 @@ export default function Home() {
           <div className="lg:col-span-5 fade-in-right animate">
             <div className="relative rounded-2xl overflow-hidden ring-1 shadow-2xl ring-black/10 bg-black/5">
               <Image
-                src="https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/eac34b73-c643-4433-82f0-5ec79e8f5fc9_1600w.jpg"
+                src={image1}
                 alt="Editorial motion"
                 width={800}
                 height={600}
@@ -126,9 +132,9 @@ export default function Home() {
 
               <div className="lg:col-span-5 fade-in-right animate">
                 <p className="text-base sm:text-lg text-black/60 max-w-2xl mt-0 mx-0 mb-6">
-                  A curated set of projects from the past months. Clean UI,
-                  clear structure, and fast delivery. Designed in Figma and
-                  built in React and Tailwind when needed.
+                  A curated set of projects from the past months. Clean code,
+                  scalable architecture, and efficient solutions. Built with modern
+                  frameworks and optimized for performance.
                 </p>
                 <div className="flex justify-start">
                   <Link
@@ -162,7 +168,7 @@ export default function Home() {
           <div className="lg:col-span-4 fade-in-left animate">
             <div className="w-full h-[360px] rounded-2xl overflow-hidden ring-1 ring-black/10 bg-gray-50 mb-6">
               <Image
-                src="https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/853977d3-265d-4013-9af2-b0bf5139dfee_800w.jpg"
+                src= {image1}
                 alt="Portrait"
                 width={400}
                 height={360}
@@ -173,42 +179,42 @@ export default function Home() {
           <div className="lg:col-span-8 fade-in-right animate">
             <div className="space-y-6 text-lg leading-relaxed text-black/70">
               <p>
-                I&apos;m a product designer who believes in the power of simplicity.
-                My approach is rooted in understanding user needs deeply and
-                crafting solutions that feel effortless and intuitive.
+                I&apos;m a Software Developer who believes in the power of clean code.
+                My approach is rooted in understanding technical requirements deeply and
+                crafting solutions that are scalable, maintainable, and performant.
               </p>
               <p>
-                With over 8 years of experience working with startups and
-                Fortune 500 companies, I&apos;ve learned that the best designs are
-                often the ones you don&apos;t notice – they just work.
+                With over 3 years of experience building applications for
+                startups and corporate companies, I&apos;ve learned that the best code is
+                often the one you don&apos;t notice – it just works.
               </p>
               <p>
-                When I&apos;m not designing, you&apos;ll find me exploring new cafés,
-                reading about behavioral psychology, or practicing minimalist
-                photography.
+                When I&apos;m not coding, you&apos;ll find me exploring new tech stacks,
+                reading about software architecture, or contributing to open
+                source projects
               </p>
             </div>
             <div className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-8">
               <div className="scale-in stagger-delay-1 animate">
-                <div className="text-3xl font-semibold tracking-tight">50+</div>
+                <div className="text-3xl font-semibold tracking-tight">10+</div>
                 <div className="text-sm mt-1 text-black/70">
                   Projects Completed
                 </div>
               </div>
               <div className="scale-in stagger-delay-2 animate">
-                <div className="text-3xl font-semibold tracking-tight">8</div>
+                <div className="text-3xl font-semibold tracking-tight">3</div>
                 <div className="text-sm mt-1 text-black/70">
                   Years Experience
                 </div>
               </div>
               <div className="scale-in stagger-delay-3 animate">
-                <div className="text-3xl font-semibold tracking-tight">15+</div>
+                <div className="text-3xl font-semibold tracking-tight">5+</div>
                 <div className="text-sm mt-1 text-black/70">Happy Clients</div>
               </div>
-              <div className="scale-in stagger-delay-4 animate">
+              {/* <div className="scale-in stagger-delay-4 animate">
                 <div className="text-3xl font-semibold tracking-tight">3</div>
                 <div className="text-sm mt-1 text-black/70">Design Awards</div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -232,9 +238,9 @@ export default function Home() {
 
             <div className="lg:col-span-5 fade-in-right animate">
               <p className="sm:text-lg text-black/60 max-w-3xl mt-0 mr-auto mb-6 ml-0">
-                A curated set of projects from the past months. Clean UI, clear
-                structure, and fast delivery. Designed in Figma and built in
-                React and Tailwind when needed.
+                  Production-ready applications showcasing enterprise-grade development. 
+                  Microservices architecture, CI/CD pipelines, and robust API design. 
+                  Built with TypeScript, Python, and cloud-native technologies
               </p>
               <div className="flex justify-start">
                 <Link
@@ -265,7 +271,7 @@ export default function Home() {
           <article className="flex flex-col h-full rounded-2xl overflow-hidden ring-1 ring-black/10 bg-white fade-in-up stagger-delay-1 animate">
             <div className="w-full bg-gray-50">
               <Image
-                src="https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/657ec554-6482-450d-9b61-f6de483507ed_800w.jpg"
+                src={img1}
                 alt="FinFlow Banking App"
                 width={800}
                 height={240}
@@ -274,24 +280,23 @@ export default function Home() {
             </div>
             <div className="p-6 flex flex-col h-full">
               <span className="inline-block px-3 py-1 text-xs font-medium rounded-full mb-4 bg-black/5 text-black/70">
-                Mobile App
+                ERP
               </span>
               <h4 className="text-xl sm:text-2xl font-semibold tracking-tight mb-3">
-                FinFlow Banking App
+                Enterprise Resource Planning (Frappe)
               </h4>
               <p className="text-black/70 mb-6">
-                A simplified mobile banking experience that turns complex money
-                tasks into quick taps.
+                A comprehensive ERP solution built on Frappe framework that streamlines business operations across multiple departments. 
               </p>
               <div className="flex flex-wrap gap-2 mb-6">
                 <span className="px-2 py-1 text-xs rounded bg-black/5">
-                  UI/UX
+                  Frappe
                 </span>
                 <span className="px-2 py-1 text-xs rounded bg-black/5">
-                  Prototyping
+                  Pyhton
                 </span>
                 <span className="px-2 py-1 text-xs rounded bg-black/5">
-                  Research
+                  JavaScript / Vite
                 </span>
               </div>
               <Link
@@ -318,7 +323,7 @@ export default function Home() {
           <article className="flex flex-col h-full rounded-2xl overflow-hidden ring-1 ring-black/10 bg-white fade-in-up stagger-delay-2 animate">
             <div className="w-full bg-gray-50">
               <Image
-                src="https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/09b4790c-3486-407c-9054-2703be04e545_800w.jpg"
+                src={img3}
                 alt="TaskFlow Dashboard"
                 width={800}
                 height={240}
@@ -327,24 +332,20 @@ export default function Home() {
             </div>
             <div className="p-6 flex flex-col h-full">
               <span className="inline-block px-3 py-1 text-xs font-medium rounded-full mb-4 bg-black/5 text-black/70">
-                Web Platform
+                intergration
               </span>
               <h4 className="text-xl sm:text-2xl font-semibold tracking-tight mb-3">
-                TaskFlow Dashboard
+                Intergrate ZKtBio Time Attendance With ERPNext
               </h4>
               <p className="text-black/70 mb-6">
-                A lean project hub that keeps teams aligned with clean visuals
-                and zero fluff.
+                Seamless integration of ZKTeco biometric devices with ERPNext for automated attendance tracking and payroll processing.
               </p>
               <div className="flex flex-wrap gap-2 mb-6">
                 <span className="px-2 py-1 text-xs rounded bg-black/5">
-                  Dashboard
+                 Python
                 </span>
                 <span className="px-2 py-1 text-xs rounded bg-black/5">
-                  Data Viz
-                </span>
-                <span className="px-2 py-1 text-xs rounded bg-black/5">
-                  Design System
+                  Shell
                 </span>
               </div>
               <Link
@@ -371,7 +372,7 @@ export default function Home() {
           <article className="flex flex-col h-full rounded-2xl overflow-hidden ring-1 ring-black/10 bg-white fade-in-up stagger-delay-3 animate">
             <div className="w-full bg-gray-50">
               <Image
-                src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/440f14df-a3b7-4f76-acb9-306f07971d75_800w.jpg"
+                src={nelliys}
                 alt="Minimal Store"
                 width={800}
                 height={240}
@@ -380,10 +381,10 @@ export default function Home() {
             </div>
             <div className="p-6 flex flex-col h-full">
               <span className="inline-block px-3 py-1 text-xs font-medium rounded-full mb-4 bg-black/5 text-black/70">
-                E‑commerce
+                Web apps
               </span>
               <h4 className="text-xl sm:text-2xl font-semibold tracking-tight mb-3">
-                Minimal Store
+              Nelliys order on top of ERPNext
               </h4>
               <p className="text-black/70 mb-6">
                 A distraction‑free shop that makes browsing effortless and
@@ -391,13 +392,10 @@ export default function Home() {
               </p>
               <div className="flex flex-wrap gap-2 mb-6">
                 <span className="px-2 py-1 text-xs rounded bg-black/5">
-                  E‑commerce UX
+                  Python
                 </span>
                 <span className="px-2 py-1 text-xs rounded bg-black/5">
-                  Mobile‑First
-                </span>
-                <span className="px-2 py-1 text-xs rounded bg-black/5">
-                  Conversion
+                  Vite-TypeScript
                 </span>
               </div>
               <Link
@@ -474,7 +472,7 @@ export default function Home() {
           <div className="flex flex-col gap-6 fade-in-left animate">
             <article className="relative overflow-hidden rounded-2xl ring-1 ring-black/10 bg-gray-50">
               <Image
-                src="https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/9b533090-af8c-4af9-8ec7-fe2dd77686c9_800w.jpg"
+                src={devel2}
                 alt="Designer workspace with minimal setup"
                 fill
                 className="object-cover"
@@ -639,8 +637,7 @@ export default function Home() {
           <article
             className="relative ring-1 ring-black/10 overflow-hidden flex flex-col lg:min-h-[600px] bg-white h-full bg-cover rounded-2xl bg-center fade-in-up animate"
             style={{
-              backgroundImage:
-                "url('https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/34ad3ce9-c409-43e7-947e-bdfd2039b1bc_800w.jpg')",
+             backgroundImage: `url(${devel.src})`,
             }}
           >
             <div
@@ -744,7 +741,7 @@ export default function Home() {
               <div className="mt-auto">
                 <div className="flex items-center gap-3 mb-4">
                   <Image
-                    src="https://images.unsplash.com/photo-1541216970279-affbfdd55aa8?w=80&h=80&fit=crop&crop=faces"
+                    src={devel}
                     alt="Maya Chen"
                     width={36}
                     height={36}
@@ -770,8 +767,7 @@ export default function Home() {
               <div
                 className="relative flex flex-col h-full bg-cover pt-6 pr-6 pb-6 pl-6 justify-end"
                 style={{
-                  backgroundImage:
-                    "url('https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/55308e17-13d9-47d0-b1c3-968032cd3426_800w.jpg')",
+                  backgroundImage: `url(${devel2.src})`,
                 }}
               >
                 <h4 className="text-xl font-semibold text-white tracking-tight mb-2">
@@ -789,8 +785,7 @@ export default function Home() {
               <div
                 className="relative flex flex-col h-full bg-cover pt-6 pr-6 pb-6 pl-6 justify-end"
                 style={{
-                  backgroundImage:
-                    "url('https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/c96b17c6-0744-4cdc-a8e2-ff92dc6c8eb9_800w.jpg')",
+                     backgroundImage: `url(${devel2.src})`,
                 }}
               >
                 <h4 className="text-xl font-semibold tracking-tight mb-2 text-white">
@@ -808,8 +803,7 @@ export default function Home() {
               <div
                 className="relative flex flex-col h-full bg-cover pt-6 pr-6 pb-6 pl-6 justify-end"
                 style={{
-                  backgroundImage:
-                    "url('https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/3bbbf364-3029-4f9e-9987-eb90d946b1b1_800w.jpg')",
+                     backgroundImage: `url(${devel2.src})`,
                 }}
               >
                 <h4 className="text-xl font-semibold tracking-tight mb-2 text-white">
@@ -908,15 +902,15 @@ export default function Home() {
               </svg>
             </div>
             <p className="text-base leading-relaxed mb-6">
-              Kirubel transformed our brand identity beyond what we imagined.
-              Professional, creative, and delivered on time. Our online presence
-              has never looked better.
+              Kirubel transformed our ERP system beyond what we imagined.
+              Professional, technical, and delivered on time. Our business processes
+              have never been more efficient
             </p>
             <div className="flex items-center justify-between">
               <div className="">
-                <div className="text-sm font-medium">Emma Collins</div>
+                <div className="text-sm font-medium">Matiyas Tesfaye</div>
                 <div className="text-xs mt-1 text-white/70">
-                  CEO, Powersurge
+                  ERP Specialist
                 </div>
               </div>
               <Image
@@ -939,8 +933,8 @@ export default function Home() {
                 className="w-6 h-6 object-cover rounded-full"
               />
               <div className="">
-                <div className="text-sm font-medium">Michael Brooks</div>
-                <div className="text-xs text-black/70">CTO, Warpspeed</div>
+                <div className="text-sm font-medium">KalKadin Gebeyew</div>
+                <div className="text-xs text-black/70">IT Head , Taf Energis</div>
               </div>
             </div>
             <div className="flex gap-1 text-black mb-4 items-center">
@@ -1039,10 +1033,10 @@ export default function Home() {
               </div>
               <div className="p-6 bg-black text-white scale-in stagger-delay-3 animate">
                 <div className="text-3xl sm:text-4xl font-semibold tracking-tight mb-2">
-                  72%
+                  100%
                 </div>
                 <div className="text-xs text-white/70">
-                  Average conversion rate improvement
+                  Delivery Project
                 </div>
               </div>
             </div>
@@ -1105,7 +1099,7 @@ export default function Home() {
               }}
             >
               <Image
-                src="https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/73cec214-1f3d-4c96-a480-b22ce84b98e8_800w.jpg"
+                src={img1}
                 alt="Studio product on dark silk"
                 width={340}
                 height={520}

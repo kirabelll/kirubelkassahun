@@ -1,6 +1,16 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import img1 from '../../public/frappe-screen.png'
+import img2 from '../../public/webscreen.png'
+import img3 from '../../public/zktlogo.png'
+import adeyimage from '../../public/adey.jpg'
+import adeyapi from '../../public/apiadey.png'
+import nelliys from '../../public/Nellys-01.png'
+import ecoimage from '../../public/ecoimage.jpg'
+import travelapi from '../../public/travelapi.jpg'
+
+
 
 export default function Work() {
   return (
@@ -34,9 +44,9 @@ export default function Work() {
           
           <div className="flex flex-wrap gap-3 text-sm">
             <button className="px-4 py-2 rounded-full bg-black text-white font-medium">All Projects</button>
-            <button className="px-4 py-2 rounded-full bg-black/5 text-black/70 hover:bg-black/10">Web Design</button>
+            <button className="px-4 py-2 rounded-full bg-black/5 text-black/70 hover:bg-black/10">Web Apps</button>
             <button className="px-4 py-2 rounded-full bg-black/5 text-black/70 hover:bg-black/10">Mobile Apps</button>
-            <button className="px-4 py-2 rounded-full bg-black/5 text-black/70 hover:bg-black/10">Branding</button>
+            <button className="px-4 py-2 rounded-full bg-black/5 text-black/70 hover:bg-black/10">ERP</button>
             <button className="px-4 py-2 rounded-full bg-black/5 text-black/70 hover:bg-black/10">E-commerce</button>
           </div>
         </div>
@@ -71,20 +81,23 @@ export default function Work() {
           <article className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
             <div className="lg:col-span-7">
               <div className="rounded-2xl overflow-hidden ring-1 ring-black/10 bg-gray-50">
-                <Image src="https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/657ec554-6482-450d-9b61-f6de483507ed_800w.jpg" alt="FinFlow Banking App" width={800} height={480} className="w-full h-[300px] sm:h-[400px] lg:h-[480px] object-cover" />
+                <Image src= {img1} alt="FinFlow Banking App" width={800} height={480} className="w-full h-[300px] sm:h-[400px] lg:h-[480px] object-cover" />
               </div>
             </div>
             <div className="lg:col-span-5 flex flex-col justify-center">
               <span className="inline-block px-3 py-1 text-xs font-medium rounded-full mb-6 bg-black/5 text-black/70 w-fit">Featured Project</span>
-              <h4 className="text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight mb-4">FinFlow Banking App</h4>
-              <p className="text-black/70 mb-6 text-lg leading-relaxed">A complete mobile banking redesign that simplified complex financial tasks into intuitive interactions. The app saw a 40% increase in user engagement within the first month of launch.</p>
-              <div className="flex flex-wrap gap-2 mb-8">
-                <span className="px-3 py-1 text-sm rounded bg-black/5">UI/UX Design</span>
-                <span className="px-3 py-1 text-sm rounded bg-black/5">User Research</span>
-                <span className="px-3 py-1 text-sm rounded bg-black/5">Prototyping</span>
-                <span className="px-3 py-1 text-sm rounded bg-black/5">Design System</span>
+              <h4 className="text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight mb-4">Enterprise Resource Planning(Frappe)  </h4> A comprehensive ERP solution built on Frappe framework that streamlines business operations across multiple departments. The system integrates accounting, inventory, HR, and project management into a unified platform, reducing operational overhead by 35% and improving data accuracy across all business processes
+              <div className="flex flex-wrap gap-3 mb-8 mt-4">
+                <span className="px-3 py-1 text-sm rounded bg-black/5">Frappe HRMS</span>
+                <span className="px-3 py-1 text-sm rounded bg-black/5">Accunoting</span>
+                <span className="px-3 py-1 text-sm rounded bg-black/5">CRM</span>
+                <span className="px-3 py-1 text-sm rounded bg-black/5">Project</span>
+                <span className="px-3 py-1 text-sm rounded bg-black/5">Assets</span>
+                <span className="px-3 py-1 text-sm rounded bg-black/5">Buying</span>
+                <span className="px-3 py-1 text-sm rounded bg-black/5">Selling</span>
+
               </div>
-              <Link href="#" className="inline-flex items-center gap-2 text-sm font-medium bg-black text-white px-6 py-3 rounded-full w-fit hover:bg-black/90 transition">
+              <Link href="https://frappe.io/" className="inline-flex items-center gap-2 text-sm font-medium bg-black text-white px-6 py-3 rounded-full w-fit hover:bg-black/90 transition">
                 View Case Study
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"></path></svg>
               </Link>
@@ -94,7 +107,7 @@ export default function Work() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <article className="flex flex-col h-full rounded-2xl overflow-hidden ring-1 ring-black/10 bg-white">
               <div className="w-full bg-gray-50">
-                <Image src="https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/09b4790c-3486-407c-9054-2703be04e545_800w.jpg" alt="TaskFlow Dashboard" width={800} height={280} className="w-full h-[280px] object-cover" />
+                <Image src={img2} alt="TaskFlow Dashboard" width={800} height={280} className="w-full h-[280px] object-cover" />
               </div>
               <div className="p-6 flex flex-col h-full">
                 <span className="inline-block px-3 py-1 text-xs font-medium rounded-full mb-4 bg-black/5 text-black/70">Web Platform</span>
@@ -114,16 +127,78 @@ export default function Work() {
 
             <article className="flex flex-col h-full rounded-2xl overflow-hidden ring-1 ring-black/10 bg-white">
               <div className="w-full bg-gray-50">
-                <Image src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/440f14df-a3b7-4f76-acb9-306f07971d75_800w.jpg" alt="Minimal Store" width={800} height={280} className="w-full h-[280px] object-cover" />
+                <Image src={ecoimage} alt="Minimal Store" width={800} height={280} className="w-full h-[280px] object-cover" />
               </div>
               <div className="p-6 flex flex-col h-full">
                 <span className="inline-block px-3 py-1 text-xs font-medium rounded-full mb-4 bg-black/5 text-black/70">E‑commerce</span>
-                <h4 className="text-xl sm:text-2xl font-semibold tracking-tight mb-3">Minimal Store</h4>
-                <p className="text-black/70 mb-6">A distraction‑free e-commerce experience that makes browsing effortless and checkout instant. Conversion optimized.</p>
-                <div className="flex flex-wrap gap-2 mb-6">
-                  <span className="px-2 py-1 text-xs rounded bg-black/5">E‑commerce UX</span>
-                  <span className="px-2 py-1 text-xs rounded bg-black/5">Mobile‑First</span>
-                  <span className="px-2 py-1 text-xs rounded bg-black/5">Shopify Development</span>
+                <h4 className="text-xl sm:text-2xl font-semibold tracking-tight mb-3">Ethio-Chicken Ecommerce - Backend</h4>
+                  A robust e-commerce backend API built with Node.js and MongoDB, featuring secure payment processing, inventory management, and real-time order tracking. Optimized for scalability and performance.
+                <div className="flex flex-wrap gap-2 mb-6 mt-3">
+                  <span className="px-2 py-1 text-xs rounded bg-black/5">API</span>
+                  <span className="px-2 py-1 text-xs rounded bg-black/5">Node-Express-Mongodb</span>
+                  <span className="px-2 py-1 text-xs rounded bg-black/5">Postman</span>
+                </div>
+                <Link href="#" className="mt-auto inline-flex items-center gap-2 text-sm font-medium">
+                  View Project
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"></path></svg>
+                </Link>
+              </div>
+            </article>
+          </div>
+{/* first project */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <article className="flex flex-col h-full rounded-2xl overflow-hidden ring-1 ring-black/10 bg-white">
+              <div className="w-full bg-gray-50">
+                <Image src={img3} alt="Brand Identity Project" width={800} height={200} className="w-full h-[200px] object-cover" />
+              </div>
+              <div className="p-6 flex flex-col h-full">
+                <span className="inline-block px-3 py-1 text-xs font-medium rounded-full mb-4 bg-black/5 text-black/70">Integration</span>
+                <h4 className="text-lg font-semibold tracking-tight mb-3">Intergrate ZKtBio Time Attendance With ERPNext</h4>
+                  <p className="text-black/70 mb-6 text-sm"> Seamless integration of ZKTeco biometric devices with ERPNext for automated attendance tracking and payroll processing.</p>
+                 <div className="flex flex-wrap gap-2 mb-6">
+                  <span className="px-2 py-1 text-xs rounded bg-black/5">Python</span>
+                  <span className="px-2 py-1 text-xs rounded bg-black/5">Shell</span>
+                </div>
+                <Link href="#" className="mt-auto inline-flex items-center gap-2 text-sm font-medium">
+                  View Project
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"></path></svg>
+                </Link>
+              </div>
+            </article>
+
+            <article className="flex flex-col h-full rounded-2xl overflow-hidden ring-1 ring-black/10 bg-white">
+              <div className="w-full bg-gray-50">
+                <Image src={adeyimage} alt="Mobile App" width={800} height={200} className="w-full h-[200px] object-cover" />
+              </div>
+              <div className="p-6 flex flex-col h-full">
+                <span className="inline-block px-3 py-1 text-xs font-medium rounded-full mb-4 bg-black/5 text-black/70">Mobile App</span>
+                <h4 className="text-lg font-semibold tracking-tight mb-3">AdeyPay</h4>
+              <p className="text-black/70 mb-6 text-sm">A secure digital payment wallet app enabling seamless money transfers, bill payments, and mobile top-ups with biometric authentication.</p>
+               <div className="flex flex-wrap gap-2 mb-6">
+                  <span className="px-2 py-1 text-xs rounded bg-black/5">XML</span>
+                  <span className="px-2 py-1 text-xs rounded bg-black/5">java</span>
+                  <span className="px-2 py-1 text-xs rounded bg-black/5">Andriod Studio</span>
+                </div>
+                <Link href="#" className="mt-auto inline-flex items-center gap-2 text-sm font-medium">
+                  View Project
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"></path></svg>
+                </Link>
+              </div>
+            </article>
+
+            <article className="flex flex-col h-full rounded-2xl overflow-hidden ring-1 ring-black/10 bg-white">
+              <div className="w-full bg-gray-50">
+                <Image src={adeyapi} alt="Website Redesign" width={800} height={200} className="w-full h-[200px] object-cover" />
+              </div>
+              <div className="p-6 flex flex-col h-full">
+                <span className="inline-block px-3 py-1 text-xs font-medium rounded-full mb-4 bg-black/5 text-black/70">API Design and Build</span>
+                <h4 className="text-lg font-semibold tracking-tight mb-3">AdayPay - Backend</h4>
+                  <p className="text-black/70 mb-6 text-sm">A robust backend API built with Django and MySQL, featuring secure authentication, payment processing, and comprehensive financial transaction management for the AdeyPay digital wallet platform.</p>
+                 <div className="flex flex-wrap gap-2 mb-6">
+                  <span className="px-2 py-1 text-xs rounded bg-black/5">API</span>
+                  <span className="px-2 py-1 text-xs rounded bg-black/5">Python-Django</span>
+                  <span className="px-2 py-1 text-xs rounded bg-black/5">JWT</span>
+                  <span className="px-2 py-1 text-xs rounded bg-black/5">Mysql</span>
                 </div>
                 <Link href="#" className="mt-auto inline-flex items-center gap-2 text-sm font-medium">
                   View Project
@@ -133,15 +208,22 @@ export default function Work() {
             </article>
           </div>
 
+          {/* additional projects */}
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <article className="flex flex-col h-full rounded-2xl overflow-hidden ring-1 ring-black/10 bg-white">
               <div className="w-full bg-gray-50">
-                <Image src="https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/73cec214-1f3d-4c96-a480-b22ce84b98e8_800w.jpg" alt="Brand Identity Project" width={800} height={200} className="w-full h-[200px] object-cover" />
+                <Image src={travelapi} alt="Brand Identity Project" width={800} height={200} className="w-full h-[200px] object-cover" />
               </div>
               <div className="p-6 flex flex-col h-full">
-                <span className="inline-block px-3 py-1 text-xs font-medium rounded-full mb-4 bg-black/5 text-black/70">Branding</span>
-                <h4 className="text-lg font-semibold tracking-tight mb-3">Studio Rebrand</h4>
-                <p className="text-black/70 mb-6 text-sm">Complete visual identity redesign for a creative studio, including logo, typography, and brand guidelines.</p>
+                <span className="inline-block px-3 py-1 text-xs font-medium rounded-full mb-4 bg-black/5 text-black/70">Web Application</span>
+                <h4 className="text-lg font-semibold tracking-tight mb-3">Natours - Travel Agency</h4>
+                    <p className="text-black/70 mb-6 text-sm">A modern travel agency website featuring tour packages, destination guides, and seamless booking experiences with responsive design and intuitive navigation.</p>
+                <div className="flex flex-wrap gap-2 mb-6">
+                  <span className="px-2 py-1 text-xs rounded bg-black/5">JavaScript-Vite</span>
+                  <span className="px-2 py-1 text-xs rounded bg-black/5">Tilwind CSS</span>
+                </div>
+                
                 <Link href="#" className="mt-auto inline-flex items-center gap-2 text-sm font-medium">
                   View Project
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"></path></svg>
@@ -151,13 +233,18 @@ export default function Work() {
 
             <article className="flex flex-col h-full rounded-2xl overflow-hidden ring-1 ring-black/10 bg-white">
               <div className="w-full bg-gray-50">
-                <Image src="https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/9ab83c55-bb01-43d7-b04c-23f9c4a252e4_800w.jpg" alt="Mobile App" width={800} height={200} className="w-full h-[200px] object-cover" />
+                <Image src={img1} alt="Mobile App" width={800} height={200} className="w-full h-[200px] object-cover" />
               </div>
               <div className="p-6 flex flex-col h-full">
-                <span className="inline-block px-3 py-1 text-xs font-medium rounded-full mb-4 bg-black/5 text-black/70">Mobile App</span>
-                <h4 className="text-lg font-semibold tracking-tight mb-3">Wellness Tracker</h4>
-                <p className="text-black/70 mb-6 text-sm">A mindful approach to health tracking with focus on simplicity and user wellbeing over metrics.</p>
-                <Link href="#" className="mt-auto inline-flex items-center gap-2 text-sm font-medium">
+                <span className="inline-block px-3 py-1 text-xs font-medium rounded-full mb-4 bg-black/5 text-black/70">Web Application</span>
+                <h4 className="text-lg font-semibold tracking-tight mb-3">Letter Mangement System</h4>
+                  <p className="text-black/70 mb-6 text-sm">A comprehensive letter management system designed to streamline document workflows, track correspondence, and manage official communications with automated routing and approval processes.</p>
+                <div className="flex flex-wrap gap-2 mb-6">
+                  <span className="px-2 py-1 text-xs rounded bg-black/5">PHP-Laravel</span>
+                  <span className="px-2 py-1 text-xs rounded bg-black/5">TypeScript-NextJS</span>
+                  <span className="px-2 py-1 text-xs rounded bg-black/5">Mysql</span>
+                </div>
+                <Link href="#" className="mt-auto inline-flex items -center gap-2 text-sm font-medium">
                   View Project
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"></path></svg>
                 </Link>
@@ -166,12 +253,17 @@ export default function Work() {
 
             <article className="flex flex-col h-full rounded-2xl overflow-hidden ring-1 ring-black/10 bg-white">
               <div className="w-full bg-gray-50">
-                <Image src="https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/6048d1c9-122b-4335-877b-965b2b899516_800w.jpg" alt="Website Redesign" width={800} height={200} className="w-full h-[200px] object-cover" />
+                <Image src={nelliys} alt="Website Redesign" width={800} height={200} className="w-full h-[200px] object-cover" />
               </div>
               <div className="p-6 flex flex-col h-full">
-                <span className="inline-block px-3 py-1 text-xs font-medium rounded-full mb-4 bg-black/5 text-black/70">Web Design</span>
-                <h4 className="text-lg font-semibold tracking-tight mb-3">Portfolio Redesign</h4>
-                <p className="text-black/70 mb-6 text-sm">Modern portfolio redesign for a creative professional, focusing on work presentation and user experience.</p>
+                <span className="inline-block px-3 py-1 text-xs font-medium rounded-full mb-4 bg-black/5 text-black/70">Web Application</span>
+                <h4 className="text-lg font-semibold tracking-tight mb-3">Nelliys (Restaurant Order Management)</h4>
+                  <p className="text-black/70 mb-6 text-sm">A restaurant order management system built as a full-stack application to streamline order processing, kitchen workflows, and customer service operations with real-time updates and inventory tracking.</p>
+                <div className="flex flex-wrap gap-2 mb-6">
+                  <span className="px-2 py-1 text-xs rounded bg-black/5">TypeScript-NextJS</span>
+                  <span className="px-2 py-1 text-xs rounded bg-black/5">Nodejs-Express</span>
+                  <span className="px-2 py-1 text-xs rounded bg-black/5">Postgresql</span>
+                </div>
                 <Link href="#" className="mt-auto inline-flex items-center gap-2 text-sm font-medium">
                   View Project
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"></path></svg>

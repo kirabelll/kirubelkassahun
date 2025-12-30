@@ -595,14 +595,6 @@ export default function ProcessPage() {
                 <div className="w-2 h-2 bg-black rounded-full"></div>
                 Adobe Creative Suite
               </li>
-              <li className="flex items-center gap-3">
-                <div className="w-2 h-2 bg-black rounded-full"></div>
-                Principle &amp; Framer
-              </li>
-              <li className="flex items-center gap-3">
-                <div className="w-2 h-2 bg-black rounded-full"></div>
-                Sketch &amp; InVision
-              </li>
             </ul>
           </div>
 
@@ -637,19 +629,19 @@ export default function ProcessPage() {
             <ul className="space-y-3 text-sm text-black/70">
               <li className="flex items-center gap-3">
                 <div className="w-2 h-2 bg-black rounded-full"></div>
-                HTML/CSS/JS
+                JavaScript- TypeScript - Python
               </li>
               <li className="flex items-center gap-3">
                 <div className="w-2 h-2 bg-black rounded-full"></div>
-                React &amp; Next.js
+                React - Next.js - TilwindCSS
               </li>
               <li className="flex items-center gap-3">
                 <div className="w-2 h-2 bg-black rounded-full"></div>
-                Webflow &amp; Framer
+                Frappe &amp; Odoo
               </li>
               <li className="flex items-center gap-3">
                 <div className="w-2 h-2 bg-black rounded-full"></div>
-                WordPress &amp; Shopify
+                WordPress
               </li>
             </ul>
           </div>
@@ -661,19 +653,11 @@ export default function ProcessPage() {
             <ul className="space-y-3 text-sm text-black/70">
               <li className="flex items-center gap-3">
                 <div className="w-2 h-2 bg-black rounded-full"></div>
-                Slack &amp; Discord
+              GitHub &amp; Linear
               </li>
               <li className="flex items-center gap-3">
                 <div className="w-2 h-2 bg-black rounded-full"></div>
-                Notion &amp; Airtable
-              </li>
-              <li className="flex items-center gap-3">
-                <div className="w-2 h-2 bg-black rounded-full"></div>
-                Zoom &amp; Loom
-              </li>
-              <li className="flex items-center gap-3">
-                <div className="w-2 h-2 bg-black rounded-full"></div>
-                GitHub &amp; Linear
+                Notion - Slack - Meet
               </li>
             </ul>
           </div>

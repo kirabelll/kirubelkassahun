@@ -3,6 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 
+
 export default function ContactPage() {
   return (
     <div className="relative sm:px-8 lg:px-12 max-w-7xl mr-auto ml-auto pr-5 pl-5">
@@ -10,7 +11,7 @@ export default function ContactPage() {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-y-4 sm:gap-6">
           <div className="flex items-center justify-between sm:justify-start">
             <Link href="/" className="sm:text-base cursor-pointer text-sm font-semibold tracking-tight">
-              KIRUBEL
+            KIRUBEL
             </Link>
           </div>
 
@@ -92,7 +93,7 @@ export default function ContactPage() {
             </div>
             <h4 className="text-xl font-semibold tracking-tight mb-3">Email</h4>
             <p className="text-black/70 text-sm mb-4">For project inquiries and detailed discussions</p>
-            <a href="mailto:hello@sakura.design" className="text-sm font-medium hover:underline">hello@sakura.design</a>
+            <a href="mailto:kirubelkassahun9@gmail.com" className="text-sm font-medium hover:underline">kirubelkassahun9@gmail.com</a>
           </div>
 
           <div className="rounded-2xl overflow-hidden ring-1 ring-black/10 bg-gradient-to-br from-green-50 to-emerald-100 p-8">
@@ -103,7 +104,7 @@ export default function ContactPage() {
             </div>
             <h4 className="text-xl font-semibold tracking-tight mb-3">Phone</h4>
             <p className="text-black/70 text-sm mb-4">Quick consultation and project discussion</p>
-            <a href="tel:+1-416-555-0123" className="text-sm font-medium hover:underline">+1 (416) 555-0123</a>
+            <a href="tel:+251927192054" className="text-sm font-medium hover:underline">+251-927-192-054</a>
           </div>
 
           <div className="rounded-2xl overflow-hidden ring-1 ring-black/10 bg-gradient-to-br from-green-50 to-emerald-100 p-8">
@@ -134,7 +135,7 @@ export default function ContactPage() {
                 <div className="grid grid-cols-2 gap-3 text-sm">
                   <div className="flex items-center gap-3">
                     <div className="w-2 h-2 bg-black rounded-full"></div>
-                    Web Design &amp; Development
+                    Enterprise Resource Planning (ERP Software)
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="w-2 h-2 bg-black rounded-full"></div>
@@ -142,7 +143,7 @@ export default function ContactPage() {
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="w-2 h-2 bg-black rounded-full"></div>
-                    Brand Identity &amp; Strategy
+                     Web Design &amp; Development
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="w-2 h-2 bg-black rounded-full"></div>
@@ -184,17 +185,17 @@ export default function ContactPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-sm font-medium tracking-tight mb-2">First Name</label>
-                  <input type="text" className="w-full px-4 py-3 border border-black/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-black/20 focus:border-black/40" placeholder="John" />
+                  <input type="text" className="w-full px-4 py-3 border border-black/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-black/20 focus:border-black/40" placeholder="" />
                 </div>
                 <div>
                   <label className="block text-sm font-medium tracking-tight mb-2">Last Name</label>
-                  <input type="text" className="w-full px-4 py-3 border border-black/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-black/20 focus:border-black/40" placeholder="Doe" />
+                  <input type="text" className="w-full px-4 py-3 border border-black/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-black/20 focus:border-black/40" placeholder="" />
                 </div>
               </div>
 
               <div>
                 <label className="block text-sm font-medium tracking-tight mb-2">Email Address</label>
-                <input type="email" className="w-full px-4 py-3 border border-black/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-black/20 focus:border-black/40" placeholder="john@company.com" />
+                <input type="email" className="w-full px-4 py-3 border border-black/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-black/20 focus:border-black/40" placeholder="example@company.com" />
               </div>
 
               <div>
@@ -206,9 +207,9 @@ export default function ContactPage() {
                 <label className="block text-sm font-medium tracking-tight mb-2">Project Type</label>
                 <select className="w-full px-4 py-3 border border-black/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-black/20 focus:border-black/40">
                   <option>Select a project type</option>
+                  <option>ERP Solutions</option>
                   <option>Web Design &amp; Development</option>
                   <option>Mobile App Design</option>
-                  <option>Brand Identity</option>
                   <option>E-commerce</option>
                   <option>SaaS Platform</option>
                   <option>Other</option>
@@ -219,10 +220,9 @@ export default function ContactPage() {
                 <label className="block text-sm font-medium tracking-tight mb-2">Project Budget</label>
                 <select className="w-full px-4 py-3 border border-black/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-black/20 focus:border-black/40">
                   <option>Select a budget range</option>
-                  <option>$5,000 - $10,000</option>
-                  <option>$10,000 - $25,000</option>
-                  <option>$25,000 - $50,000</option>
-                  <option>$50,000+</option>
+                  <option>Br 40,000 - Br 100,000</option>
+                  <option>Br 100,000 - Br 350,000</option>
+                  <option>Br 500,000+</option>
                   <option>Let&apos;s discuss</option>
                 </select>
               </div>
@@ -260,7 +260,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="font-semibold tracking-tight">Twitter</h4>
-                  <p className="text-sm text-black/70">@sakura_design</p>
+                  <p className="text-sm text-black/70">@kirabelll</p>
                 </div>
               </div>
             </div>
@@ -278,7 +278,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="font-semibold tracking-tight">Instagram</h4>
-                  <p className="text-sm text-black/70">@sakura.design</p>
+                  <p className="text-sm text-black/70">@kirabelll</p>
                 </div>
               </div>
             </div>
@@ -296,7 +296,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="font-semibold tracking-tight">LinkedIn</h4>
-                  <p className="text-sm text-black/70">Sakura Design</p>
+                  <p className="text-sm text-black/70">Kirubel Kassahun</p>
                 </div>
               </div>
             </div>
@@ -316,7 +316,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="font-semibold tracking-tight">Dribbble</h4>
-                  <p className="text-sm text-black/70">sakura_design</p>
+                  <p className="text-sm text-black/70">Kirubelkassahun</p>
                 </div>
               </div>
             </div>
@@ -392,14 +392,15 @@ export default function ContactPage() {
               <div className="text-sm font-semibold tracking-tight mb-3">Main Pages</div>
               <ul className="space-y-2 text-black/70 text-sm">
                 <li><Link href="/" className="hover:text-black">Home</Link></li>
-                <li><Link href="#" className="hover:text-black">About</Link></li>
+                <li><Link href="/process" className="hover:text-black">process</Link></li>
                 <li><Link href="/work" className="hover:text-black">Work</Link></li>
+                <li><Link href="/contact" className="hover:text-black">Contact</Link></li>
               </ul>
             </div>
             <div>
               <div className="text-sm font-semibold tracking-tight mb-3">Contact</div>
               <ul className="space-y-2 text-black/70 text-sm">
-                <li><a href="mailto:hello@sakura.design" className="hover:text-black">Email</a></li>
+                <li><a href="mailto:kirubelkassahun9@gmail.com" className="hover:text-black">Email</a></li>
                 <li><a href="tel:+1-416-555-0123" className="hover:text-black">Phone</a></li>
                 <li><a href="#" className="hover:text-black">Schedule Call</a></li>
               </ul>
@@ -407,9 +408,9 @@ export default function ContactPage() {
             <div>
               <div className="text-sm font-semibold tracking-tight mb-3">Services</div>
               <ul className="space-y-2 text-black/70 text-sm">
-                <li><a href="#" className="hover:text-black">UI/UX Design</a></li>
+                <li><a href="#" className="hover:text-black"> Enterprise Resource Planning (ERP) </a></li>
                 <li><a href="#" className="hover:text-black">Web Development</a></li>
-                <li><a href="#" className="hover:text-black">Branding</a></li>
+                <li><a href="#" className="hover:text-black">Mobile Development</a></li>
               </ul>
             </div>
             <div>

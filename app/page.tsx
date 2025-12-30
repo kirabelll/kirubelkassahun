@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import image1  from '../public/kirabel.jpg'
 import img1 from '../public/frappe-screen.png'
-
 import img3 from '../public/zktlogo.png'
 import nelliys from '../public/Nellys-01.png'
 import devel from '../public/developer.jpg'
@@ -39,7 +38,7 @@ export default function Home() {
           <div className="lg:col-span-7 fade-in-left animate">
             <h1 className="text-[34px] sm:text-[44px] lg:text-[56px] xl:text-[60px] 2xl:text-[64px] leading-[1.05] font-semibold tracking-tight">
               <span className="block">Innovative by Code.</span>
-              <span className="block">Efficient by Logic.</span>
+              <span className="block ">Efficient by Logic.</span>
               <span className="block">Exceptional by Architecture.</span>
             </h1>
 
